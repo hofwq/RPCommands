@@ -1,0 +1,20 @@
+name: RPCommands
+main: ru.hofwq.rpcommands.RPCommands
+version: 1.0 alpha
+author: hofwq
+api-version: 1.16
+
+commands:
+  me:
+    description: Действие от первого лица.
+    usage: /me [Действие]
+  do:
+    description: Действие от третьего лица.
+    usage: /do [Действие]
+  try:
+    description: Действие со случайным исходом (Удачно/Неудачно)
+    usage: /try [Действие]
+  action:
+    usage: /action
+  getuuid:
+    usage: /getuuid [name]
